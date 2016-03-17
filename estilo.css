@@ -51,8 +51,12 @@ p {
   text-align: center;
   margin: 0px;
   padding-right: 25px;
+  padding-bottom: 30px;
 }
-
+#hoje p {
+  padding-left: 35px;
+  padding-right: 35px;
+}
 #hoje img{
   width: 112px;
   height: 112px;
@@ -61,4 +65,28 @@ p {
 #hoje h2 {
   padding-top: 20px;
   padding-bottom: 5px;
+}
+
+#musica h2{
+  padding-left: 12px;
+}
+
+#musica p:nth-of-type(2n) {
+ padding-left: 46px;
+}
+
+#musica p:nth-of-type(2n+1) {
+ padding-left: 12px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'Times New Roman';
+}
+
+div .destacado {
+  color: #004a79;
+  background-color: #c4caf3;
+  padding: 0px;
+  margin: 0px;
 }
